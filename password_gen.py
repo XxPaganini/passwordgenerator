@@ -20,7 +20,7 @@ class PassGen():
         ]
         #Window
         self.janela = sg.Window('Password Generator', layout)
-
+        #Programa/GerarSenha/SalvarSenha
     def Iniciar(self):
         while True:
             evento, valores = self.janela.read()
